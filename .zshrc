@@ -1,7 +1,7 @@
 #QT on Gtk
 #dont forget to instal adwaita-qt
-#export QT_QPA_PLATFORMTHEME=gtk3
-#export QT_STYLE_OVERRIDE=adwaita
+ export QT_QPA_PLATFORMTHEME=gtk3
+ export QT_STYLE_OVERRIDE=adwaita
 
  export USE_CCACHE=1
 # If you come from bash you might have to change your $PATH.
@@ -67,6 +67,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
   extract
+  pantheon-terminal-notify
 )
 
 source $ZSH/oh-my-zsh.sh
