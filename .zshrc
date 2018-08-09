@@ -103,9 +103,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-#       source /etc/profile.d/vte.sh
-#fi
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+       source /etc/profile.d/vte.sh
+fi
 
 alias grep="grep -i"
 alias yt="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0"
