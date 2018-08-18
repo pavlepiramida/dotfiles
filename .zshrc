@@ -111,6 +111,7 @@ alias grep="grep -i"
 alias yt="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0"
 alias open="nohup xdg-open $a > /dev/null"
 alias adl="aria2c"
+alias eq="qpaeq"
 
 
 
