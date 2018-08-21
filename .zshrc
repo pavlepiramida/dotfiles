@@ -13,7 +13,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="bullet-train"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -103,16 +103,28 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#Fix tilix on arch
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
        source /etc/profile.d/vte.sh
 fi
+
+
+#Bullet-train options
+BULLETTRAIN_PROMPT_ORDER=(
+  context
+  dir
+  git 
+)
+
+BULLETTRAIN_DIR_BG=black
+BULLETTRAIN_DIR_FG=white
+BULLETTRAIN_GIT_COLORIZE_DIRTY=true	
+
 
 alias grep="grep -i"
 alias yt="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0"
 alias open="nohup xdg-open $a > /dev/null"
 alias adl="aria2c"
 alias eq="qpaeq"
-
-
 
 
