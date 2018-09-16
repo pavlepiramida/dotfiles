@@ -13,7 +13,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="bullet-train"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -120,6 +120,12 @@ BULLETTRAIN_DIR_BG=black
 BULLETTRAIN_DIR_FG=white
 BULLETTRAIN_GIT_COLORIZE_DIRTY=true	
 
+#powerlevel9k options
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_MODE="nerdfont-complete"
+POWERLEVEL9K_DISABLE_PROMPT=true
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=" "
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 
 alias grep="grep -i"
 alias yt="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0"
