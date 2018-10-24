@@ -3,6 +3,10 @@
 #export QT_QPA_PLATFORMTHEME=gtk3
 #export QT_STYLE_OVERRIDE=adwaita
 
+#Kill the rm prompt with fucking fire,bury it deep down and forget its existance 
+#just like I do with every other annoyance 
+setopt rmstarsilent
+
  export USE_CCACHE=1
 # If you come from bash you might have to change your $PATH.
  export PATH=$HOME/.bin:/usr/local/bin:$PATH
@@ -16,11 +20,11 @@
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE="nerdfont-complete"
-#powerlevel9k options
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_DISABLE_PROMPT=true
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=" "
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=" "
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
+
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -62,7 +66,7 @@ POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-HIST_STAMPS="dd.mm.yyyy"
+# HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -127,11 +131,9 @@ BULLETTRAIN_DIR_BG=black
 BULLETTRAIN_DIR_FG=white
 BULLETTRAIN_GIT_COLORIZE_DIRTY=true	
 
-
 alias grep="grep -i"
 alias yt="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0"
 alias open="nohup xdg-open $a > /dev/null"
 alias adl="aria2c"
 alias eq="qpaeq"
-
 
