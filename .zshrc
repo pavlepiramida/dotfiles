@@ -135,5 +135,10 @@ alias grep="grep -i"
 alias yt="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0"
 alias open="nohup xdg-open $a > /dev/null"
 alias adl="aria2c"
-alias eq="qpaeq"
+# Call me Dirty Hacky for this 
+#get it haha like Dirty Harry but Hacky hahahaha
+#I cant fill the void I feel,its growing within me
+alias changeDomain="code /etc/httpd/conf/extra/httpd-vhosts.conf"
+#why the fuck not,alias everything 
+alias rhttpd="systemctl restart httpd"
 
