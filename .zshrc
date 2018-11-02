@@ -10,6 +10,8 @@ setopt rmstarsilent
  export USE_CCACHE=1
 # If you come from bash you might have to change your $PATH.
  export PATH=$HOME/.bin:/usr/local/bin:$PATH
+# Fuck ME
+ export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
 # Path to your oh-my-zsh installation.
   export ZSH="/home/pavle/.oh-my-zsh"
@@ -141,4 +143,7 @@ alias adl="aria2c"
 alias changeDomain="code /etc/httpd/conf/extra/httpd-vhosts.conf"
 #why the fuck not,alias everything 
 alias rhttpd="systemctl restart httpd"
+#its actually dope to have this 
+alias startLaravel="php artisan serve"
+alias openLaravel="open http://127.0.0.1:8000"
 
