@@ -1,6 +1,6 @@
 #QT on Gtk
 #dont forget to instal adwaita-qt
-#export QT_QPA_PLATFORMTHEME=gtk3
+export QT_QPA_PLATFORMTHEME='gnome'
 #export QT_STYLE_OVERRIDE=adwaita
 
 #Kill the rm prompt with fucking fire,bury it deep down and forget its existance 
@@ -12,6 +12,10 @@ setopt rmstarsilent
  export PATH=$HOME/.bin:/usr/local/bin:$PATH
 # Fuck ME
  export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+ 
+ export MSBuildSDKsPath="/opt/dotnet/sdk/2.2.100/Sdks"
+ export  PATH=$MSBuildSDKsPath:$PATH
+  export PATH="$PATH:/home/pavle/.dotnet/tools"
 
 # Path to your oh-my-zsh installation.
   export ZSH="/home/pavle/.oh-my-zsh"
