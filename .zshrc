@@ -13,9 +13,10 @@ setopt rmstarsilent
 # Fuck ME
  export PATH="$PATH:$HOME/.config/composer/vendor/bin"
  
- export MSBuildSDKsPath="/opt/dotnet/sdk/2.2.100/Sdks"
+ export MSBuildSDKsPath="/opt/dotnet/sdk/2.2.102/Sdks"
  export  PATH=$MSBuildSDKsPath:$PATH
-  export PATH="$PATH:/home/pavle/.dotnet/tools"
+ export PATH="$PATH:/home/pavle/.dotnet/tools"
+ export PATH="$PATH:/home/pavle/.local/bin"
 
 # Path to your oh-my-zsh installation.
   export ZSH="/home/pavle/.oh-my-zsh"
@@ -127,6 +128,7 @@ fi
 
 #alias section
 alias grep="grep -i"
+alias steam="steam-native"
 alias yt="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0"
 alias open="nohup xdg-open $a > /dev/null"
 alias adl="aria2c"
