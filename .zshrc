@@ -1,6 +1,6 @@
 #QT on Gtk
 #dont forget to instal adwaita-qt
-export QT_QPA_PLATFORMTHEME='gnome'
+#export QT_QPA_PLATFORMTHEME='gnome'
 #export QT_STYLE_OVERRIDE=adwaita
 
 #Kill the rm prompt with fucking fire,bury it deep down and forget its existance 
@@ -13,7 +13,7 @@ setopt rmstarsilent
 # Fuck ME
  export PATH="$PATH:$HOME/.config/composer/vendor/bin"
  
- export MSBuildSDKsPath="/opt/dotnet/sdk/2.2.102/Sdks"
+ export MSBuildSDKsPath="/opt/dotnet/sdk/2.2.105/Sdks"
  export  PATH=$MSBuildSDKsPath:$PATH
  export PATH="$PATH:/home/pavle/.dotnet/tools"
  export PATH="$PATH:/home/pavle/.local/bin"
@@ -25,7 +25,7 @@ setopt rmstarsilent
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 POWERLEVEL9K_MODE="nerdfont-complete"
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_DISABLE_PROMPT=true
