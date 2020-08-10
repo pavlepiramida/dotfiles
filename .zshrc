@@ -10,17 +10,11 @@ setopt rmstarsilent
  export USE_CCACHE=1
 # If you come from bash you might have to change your $PATH.
  export PATH=$HOME/.bin:/usr/local/bin:$PATH
-# Fuck ME
- export PATH="$PATH:$HOME/.config/composer/vendor/bin"
- 
- export MSBuildSDKsPath="/opt/dotnet/sdk/2.2.105/Sdks"
- export  PATH=$MSBuildSDKsPath:$PATH
  export PATH="$PATH:/home/pavle/.dotnet/tools"
  export PATH="$PATH:/home/pavle/.local/bin"
 
 # Path to your oh-my-zsh installation.
   export ZSH="/home/pavle/.oh-my-zsh"
-  
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -106,9 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-#make jobs
- export MAKEFLAGS="-j4"
-
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
@@ -132,7 +123,3 @@ alias steam="steam-native"
 alias yt="youtube-dl --extract-audio --audio-format mp3 --audio-quality 0"
 alias open="nohup xdg-open $a > /dev/null"
 alias adl="aria2c"
-#its actually dope to have this 
-alias startLaravel="php artisan serve"
-alias openLaravel="open http://127.0.0.1:8000"
-
